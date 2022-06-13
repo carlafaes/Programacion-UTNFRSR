@@ -14,3 +14,5 @@ public class clase2 {
         System.out.println(miVariableCadena);
     }
 }
+
+
