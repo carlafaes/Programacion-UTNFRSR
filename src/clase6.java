@@ -75,12 +75,13 @@ public class clase6 {
         var modulo= num1 % num2;
         System.out.println("la solucion del modulo es = " + modulo);
 
-        if(num1 % 2 == 0){
+        //if declarado sin llaves
+        if(num1 % 2 == 0)
             System.out.println("num1 es par");
-        }
-        else{
+        
+        else
             System.out.println("num1 es impar");
-        }
+        
     }
 
 }
