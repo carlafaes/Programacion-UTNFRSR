@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class clase6 {
 
     public static void main(String[] args) throws Exception {
@@ -31,6 +33,14 @@ public class clase6 {
 
         var valorPI= Double.parseDouble("3.1416");
         System.out.println("valorPI = " + valorPI);
+
+        //pedir un valor
+        var entrada = new Scanner(System.in);
+        System.out.println("Ingrese un valor");
+        edad= Integer.parseInt(entrada.nextLine());
+        System.out.println("edad = " + edad);
+
+        
     }
 
 }
