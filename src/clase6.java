@@ -28,6 +28,9 @@ public class clase6 {
         //conversion de tipos primitivos
         var _edad= Integer.parseInt("25");
         System.out.println("_edad = " + _edad);
+
+        var valorPI= Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
     }
 
 }
