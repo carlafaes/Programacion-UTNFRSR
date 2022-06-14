@@ -31,5 +31,14 @@ public class clase8 {
         var varL=varK--;//primero el valor de la variable y luego el decremento
         System.out.println("varK = " + varK);
         System.out.println("varL = " + varL);
+
+        //operadores de igualdad y relacionales
+        var aNum=5;
+        var bNum= 4;
+        var cNum=(aNum==bNum);//false
+        System.out.println("aNum = " + aNum);
+
+        var dNum= aNum != bNum;//true
+        System.out.println("dNum = " + dNum);
     }
 }
