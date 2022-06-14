@@ -1,3 +1,5 @@
+
+
 public class clase8 {
     public static void main(String[] args) throws Exception {
         //operador de negacion
@@ -40,5 +42,44 @@ public class clase8 {
 
         var dNum= aNum != bNum;//true
         System.out.println("dNum = " + dNum);
-    }
+
+        var cadenaA="Hello";
+        var cadenaB="Bye";
+        var cadenaC= (cadenaA==cadenaB);//false
+        System.out.println("cadenaC = " + cadenaC);
+
+        var cadenaF= cadenaA.equals(cadenaB);//false
+        System.out.println("cadenaF = " + cadenaF);
+
+        var hVar= aNum != bNum;//true <= >= < > ==
+        System.out.println("hVar = " + hVar);
+
+        if(aNum % 2 == 0){
+            System.out.println("aNum es par");
+        }else{
+            System.out.println("aNum es impar");
+        }
+
+        //operador condicional and
+        var valorA=7;
+        var valorMinimo=0;
+        var valorMaximo=10;
+        var respuesta= valorA >= 0 && valorA <= 10;
+
+        if(respuesta){
+            System.out.println("Esta dentro del rango establecido");
+        }
+        else{
+            System.out.println("Esta fuera del rango establecido");
+        }
+
+        var vacaciones=false;
+        var diaLibre=false;
+
+        if(vacaciones || diaLibre){
+            System.out.println("Puede trabajar");
+        }else{
+            System.out.println("No puede trabajar");
+        }
+}
 }
