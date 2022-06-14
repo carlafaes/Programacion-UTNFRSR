@@ -46,7 +46,20 @@ public class clase6 {
 
         var frasechar="programadores".charAt(0);//charAt nos regresa el caracter en la posicion indicada
         System.out.println("charAt(primer posicion) = " + frasechar);
-        
+
+        Scanner entrada1=new Scanner(System.in);
+        System.out.println("Ingrese el nombre del libro: ");
+        String nombreLibro=entrada.nextLine();
+        System.out.println("Ingrese el id del libro" );
+        int idLibro=Integer.parseInt(entrada.nextLine());
+        System.out.println("Ingrese el precio del libro");
+        double precioLibro=Double.parseDouble(entrada.nextLine());
+        System.out.println("Confirme si el envio es gratuito: ");
+        boolean envioGratuito=Boolean.parseBoolean(entrada.nextLine());
+
+        System.out.println(nombreLibro +" "+idLibro);
+        System.out.println("Precio:" + precioLibro);
+        System.out.println("El envio es gratuito:" + envioGratuito);
     }
 
 }
