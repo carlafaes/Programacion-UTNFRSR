@@ -60,6 +60,17 @@ public class clase6 {
         System.out.println(nombreLibro +" "+idLibro);
         System.out.println("Precio:" + precioLibro);
         System.out.println("El envio es gratuito:" + envioGratuito);
+
+        //declarando variables en una sola linea
+        int num1=5, num2=45;
+        var solucion=num1+num2;
+        System.out.println("la solucion de la suma es = " + solucion);
+        var resta = num1 - num2;
+        System.out.println("la solucion de la resta es = " + resta);
+        var multiplicacion = num1 * num2;
+        System.out.println("la solucion de la multiplicacion es = " + multiplicacion);
+        var division = num1 / num2;
+        System.out.println("la solucion de la division es = " + division);
     }
 
 }
