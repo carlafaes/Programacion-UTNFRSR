@@ -71,6 +71,16 @@ public class clase6 {
         System.out.println("la solucion de la multiplicacion es = " + multiplicacion);
         var division = num1 / num2;
         System.out.println("la solucion de la division es = " + division);
+
+        var modulo= num1 % num2;
+        System.out.println("la solucion del modulo es = " + modulo);
+
+        if(num1 % 2 == 0){
+            System.out.println("num1 es par");
+        }
+        else{
+            System.out.println("num1 es impar");
+        }
     }
 
 }
