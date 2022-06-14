@@ -43,6 +43,10 @@ public class clase6 {
         //conversion de tipos primitivos
         var edadTexto= String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
+
+        var frasechar="programadores".charAt(0);//charAt nos regresa el caracter en la posicion indicada
+        System.out.println("charAt(primer posicion) = " + frasechar);
+        
     }
 
 }
