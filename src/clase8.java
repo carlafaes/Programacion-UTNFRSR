@@ -73,6 +73,7 @@ public class clase8 {
             System.out.println("Esta fuera del rango establecido");
         }
 
+        //operador condicional or
         var vacaciones=false;
         var diaLibre=false;
 
@@ -81,5 +82,13 @@ public class clase8 {
         }else{
             System.out.println("No puede trabajar");
         }
+
+        //operador ternario
+        var varM=(5 < 4)? "verdadero" : "falso";
+        System.out.println("varM = " + varM);
+
+        var varN=7;
+        var varO=(varN % 2 == 0)? "es par" : "es impar";
+        System.out.println("varO = " + varO);
 }
 }
