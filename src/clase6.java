@@ -40,7 +40,9 @@ public class clase6 {
         edad= Integer.parseInt(entrada.nextLine());
         System.out.println("edad = " + edad);
 
-        
+        //conversion de tipos primitivos
+        var edadTexto= String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
     }
 
 }
