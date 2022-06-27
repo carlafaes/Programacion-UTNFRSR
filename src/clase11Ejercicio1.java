@@ -1,7 +1,7 @@
-//Ejercicio 2: Determinar si un alumno aprueba o repreuba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70, reprueba caso contrario.
+//Ejercicio 1: Determinar si un alumno aprueba o repreuba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70, reprueba caso contrario.
 import java.util.Scanner;
 
-public class clase11 {
+public class clase11Ejercicio1 {
     public static void main(String[] args) throws Exception {
         Scanner entrada= new Scanner(System.in);
         double nota1, nota2, nota3, promedio;
@@ -20,3 +20,5 @@ public class clase11 {
         }
     }
 }
+
+
