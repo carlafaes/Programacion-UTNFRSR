@@ -1,3 +1,4 @@
+package programacionI;
 import java.util.Scanner;
 
 //Ejercicio 2: Hacer un programa que calculo e imprima el salario de un empleado, a partir de sus horas semanales trabajadas y de su salario por hora.

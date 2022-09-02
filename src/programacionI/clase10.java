@@ -1,3 +1,4 @@
+package programacionI;
 import java.util.Scanner;
 
 public class clase10 {

@@ -1,3 +1,4 @@
+package programacionI;
 //Leer 2 numeros, si son iguales que los multiplique, si el primero es mayor que el segundo que los reste, y sino que los sume.
 
 import java.util.Scanner;

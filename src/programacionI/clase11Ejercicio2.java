@@ -1,3 +1,4 @@
+package programacionI;
 //En un almacen se hace un 20 MOD de descuento a los clientes cuya compra supere los $100. ¿Cual sera la cantidad que pagara una persona por su compra?
 
 import java.util.Scanner;

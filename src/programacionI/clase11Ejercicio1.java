@@ -1,3 +1,4 @@
+package programacionI;
 //Ejercicio 1: Determinar si un alumno aprueba o repreuba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70, reprueba caso contrario.
 import java.util.Scanner;
 

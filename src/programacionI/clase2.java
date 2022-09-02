@@ -1,3 +1,4 @@
+package programacionI;
 public class clase2 {
     public static void main(String[] args) throws Exception {
         System.out.println("Hola mundo desde Java!");
